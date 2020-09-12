@@ -24,5 +24,5 @@
 
 <p align="center">
 <a href="https://twitter.com/fuxksniper" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="fuxksniper" height="30" width="30" /></a>
-<a href="https://stackoverflow.com/users/prin sharma" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="prin sharma" height="30" width="30" /></a>
+<a href="t.me/prindead" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="prin sharma" height="30" width="30" /></a>
 </p>
