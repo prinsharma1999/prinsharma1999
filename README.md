@@ -1,4 +1,4 @@
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A bug bounty Hunter from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prinsharma1999" alt="prinsharma1999" /> </p>
 
