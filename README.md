@@ -1,10 +1,10 @@
 <!-- ═══════════════════════ ANIMATED HEADER ═══════════════════════ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,35:0b3d2e,70:0f9b6c,100:00ff9c&height=220&section=header&text=Prin%20Sharma&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Bug%20Bounty%20Hunter%20%C2%B7%20Security%20Researcher%20%C2%B7%20Builder&descAlignY=52&descSize=16" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,35:0b3d2e,70:0f9b6c,100:00ff9c&height=220&section=header&text=Prin%20Sharma&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Bug%20Bounty%20Hunter%20%C2%B7%20Reverse%20Engineer%20%C2%B7%20Full-Stack%20Builder%20%C2%B7%20Founder&descAlignY=52&descSize=15" alt="header" />
 
 <!-- ═══════════════════════ TYPING ANIMATION ══════════════════════ -->
 <div align="center">
   <a href="https://github.com/prinsharma1999">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=650&height=60&lines=Bug+Bounty+Hunter;Web+%26+Mobile+Application+Pentester;Full-Stack+Builder+%E2%80%A2+TypeScript+%2B+Python;Founder+%40+Cipher+Academy;Breaking+things%2C+ethically." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=2800&pause=700&color=00FF9C&center=true&vCenter=true&width=720&height=60&lines=Bug+Bounty+Hunter;Security+Researcher+%C2%B7+Web+%26+Mobile+AppSec;Reverse+Engineer+%C2%B7+Frida+%26+mitmproxy;Full-Stack+Engineer+%C2%B7+TypeScript+%2B+Python;AI%2FML+%26+Speech+Builder+%C2%B7+PyTorch;Founder+%40+Cipher+Academy;Breaking+things%2C+ethically." alt="Typing SVG" />
   </a>
 </div>
 
@@ -43,14 +43,21 @@
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28" /> `whoami`
 
 ```yaml
-name:        Prin Sharma
-role:        Bug Bounty Hunter · Security Researcher
-building:    Cipher Academy  →  https://cipher.academy
-location:    India 🇮🇳
-focus:       Web & Mobile Application Pentesting
-also:        Full-stack engineering — TypeScript, Python, React, FastAPI
-reach_me:    prin@cipher.academy
-motto:       "Break it. Report it. Fix it."
+name:      Prin Sharma
+location:  India 🇮🇳
+
+roles:
+  - Bug Bounty Hunter
+  - Security Researcher        # web & mobile application pentesting
+  - Reverse Engineer           # Frida instrumentation, traffic interception
+  - Full-Stack Engineer        # TypeScript · React · Next.js · FastAPI
+  - AI / ML & Speech Builder   # PyTorch · Transformers · ASR pipelines
+  - Founder @ Cipher Academy
+
+building:  Cipher Academy  →  https://cipher.academy
+shipped:   47 projects  ·  TypeScript & Python heavy
+reach_me:  prin@cipher.academy
+motto:     "Break it. Report it. Fix it."
 ```
 
 <br />
