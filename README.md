@@ -1,5 +1,5 @@
 <!-- ═══════════════════════ ANIMATED HEADER ═══════════════════════ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,35:0b3d2e,70:0f9b6c,100:00ff9c&height=220&section=header&text=Prin%20Sharma&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Bug%20Bounty%20Hunter%20%C2%B7%20Reverse%20Engineer%20%C2%B7%20Full-Stack%20Builder%20%C2%B7%20Founder&descAlignY=52&descSize=15" alt="header" />
+<img width="100%" src="./assets/header.svg" alt="Prin Sharma — Bug Bounty Hunter · Reverse Engineer · Full-Stack Builder" />
 
 <!-- ═══════════════════════ TYPING ANIMATION ══════════════════════ -->
 <div align="center">
@@ -155,8 +155,4 @@ motto:     "Break it. Report it. Fix it."
 <br />
 
 <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
-<div align="center">
-  <i>⭐ Both graphs above regenerate themselves daily via GitHub Actions.</i>
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff9c,30:0f9b6c,65:0b3d2e,100:0D1117&height=140&section=footer" alt="footer" />
+<img width="100%" src="./assets/footer.svg" alt="Thanks for scrolling — graphs regenerate daily via GitHub Actions" />
