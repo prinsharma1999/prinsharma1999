@@ -22,6 +22,14 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=prinsharma1999&show_icons=true" alt="prinsharma1999" /></p>
 
+<br clear="both" />
+
+<h3 align="center">📊 My Contributions in 3D</h3>
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="prinsharma1999's 3D contribution graph" width="100%" />
+</p>
+
 <p align="center">
 <a href="https://twitter.com/fuxksniper" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="fuxksniper" height="30" width="30" /></a>
 <a href="t.me/prindead" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="prin sharma" height="30" width="30" /></a>
