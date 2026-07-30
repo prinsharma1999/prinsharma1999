@@ -1,5 +1,5 @@
 <!-- ═══════════════════════ ANIMATED HEADER ═══════════════════════ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Prin%20Sharma&fontSize=52&fontColor=00ff9c&animation=fadeIn&fontAlignY=36&desc=Bug%20Bounty%20Hunter%20%7C%20Security%20Researcher%20%7C%20Builder&descAlignY=56&descSize=16" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,35:0b3d2e,70:0f9b6c,100:00ff9c&height=220&section=header&text=Prin%20Sharma&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Bug%20Bounty%20Hunter%20%C2%B7%20Security%20Researcher%20%C2%B7%20Builder&descAlignY=52&descSize=16" alt="header" />
 
 <!-- ═══════════════════════ TYPING ANIMATION ══════════════════════ -->
 <div align="center">
@@ -111,7 +111,7 @@ motto:       "Break it. Report it. Fix it."
 ## 🔥 Streak
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=prinsharma1999&theme=highcontrast&hide_border=true&background=0D1117&stroke=00FF9C&ring=00FF9C&fire=FF6B00&currStreakLabel=00FF9C" alt="streak stats" />
+  <img src="./assets/streak.svg" alt="streak stats" />
 </div>
 
 <br />
@@ -120,7 +120,7 @@ motto:       "Break it. Report it. Fix it."
 ## 📈 Contribution Activity
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=prinsharma1999&bg_color=0D1117&color=00FF9C&line=00FF9C&point=FFFFFF&area=true&hide_border=true" alt="activity graph" />
+  <img width="100%" src="./assets/activity.svg" alt="activity graph" />
 </div>
 
 <br />
@@ -152,4 +152,4 @@ motto:       "Break it. Report it. Fix it."
   <i>⭐ Both graphs above regenerate themselves daily via GitHub Actions.</i>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" alt="footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff9c,30:0f9b6c,65:0b3d2e,100:0D1117&height=140&section=footer" alt="footer" />
