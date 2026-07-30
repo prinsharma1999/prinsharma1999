@@ -1,10 +1,10 @@
 <!-- ═══════════════════════ ANIMATED HEADER ═══════════════════════ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Prin%20Sharma&fontSize=52&fontColor=00ff9c&animation=fadeIn&fontAlignY=36&desc=Bug%20Bounty%20Hunter%20%7C%20Security%20Researcher&descAlignY=56&descSize=16" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Prin%20Sharma&fontSize=52&fontColor=00ff9c&animation=fadeIn&fontAlignY=36&desc=Bug%20Bounty%20Hunter%20%7C%20Security%20Researcher%20%7C%20Builder&descAlignY=56&descSize=16" alt="header" />
 
 <!-- ═══════════════════════ TYPING ANIMATION ══════════════════════ -->
 <div align="center">
   <a href="https://github.com/prinsharma1999">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=650&height=60&lines=Bug+Bounty+Hunter;Web+Application+Pentester;Security+Researcher+from+India;Breaking+things%2C+ethically." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=650&height=60&lines=Bug+Bounty+Hunter;Web+%26+Mobile+Application+Pentester;Full-Stack+Builder+%E2%80%A2+TypeScript+%2B+Python;Founder+%40+Cipher+Academy;Breaking+things%2C+ethically." alt="Typing SVG" />
   </a>
 </div>
 
@@ -14,15 +14,20 @@
   <a href="https://github.com/prinsharma1999?tab=followers">
     <img src="https://img.shields.io/github/followers/prinsharma1999?label=Followers&style=for-the-badge&color=00ff9c&labelColor=0D1117" alt="followers" />
   </a>
-  <img src="https://img.shields.io/badge/Focus-Web%20AppSec-00ff9c?style=for-the-badge&labelColor=0D1117" alt="focus" />
+  <a href="https://cipher.academy">
+    <img src="https://img.shields.io/badge/Cipher%20Academy-00ff9c?style=for-the-badge&logoColor=black&labelColor=0D1117" alt="cipher academy" />
+  </a>
 </div>
 
 <br />
 
 <!-- ═══════════════════════ SOCIALS ═══════════════════════ -->
 <div align="center">
-  <a href="mailto:prindevil30@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email" />
+  <a href="mailto:prin@cipher.academy">
+    <img src="https://img.shields.io/badge/prin@cipher.academy-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email" />
+  </a>
+  <a href="https://cipher.academy" target="_blank">
+    <img src="https://img.shields.io/badge/cipher.academy-0D1117?style=for-the-badge&logo=googlechrome&logoColor=00ff9c" alt="website" />
   </a>
   <a href="https://twitter.com/fuxksniper" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="twitter" />
@@ -39,15 +44,25 @@
 
 ```yaml
 name:        Prin Sharma
-role:        Bug Bounty Hunter
+role:        Bug Bounty Hunter · Security Researcher
+building:    Cipher Academy  →  https://cipher.academy
 location:    India 🇮🇳
-learning:    Web Application Pentesting
-collab_on:   Bug Bounty
-ask_me:      Anything you want
-reach_me:    prindevil30@gmail.com
-fun_fact:    "🙃"
+focus:       Web & Mobile Application Pentesting
+also:        Full-stack engineering — TypeScript, Python, React, FastAPI
+reach_me:    prin@cipher.academy
 motto:       "Break it. Report it. Fix it."
 ```
+
+<br />
+
+<!-- ═══════════════════════ CIPHER ACADEMY ═══════════════════════ -->
+## 🏛️ Cipher Academy
+
+<div align="center">
+  <a href="https://cipher.academy">
+    <img src="https://img.shields.io/badge/🌐%20cipher.academy-Visit-00ff9c?style=for-the-badge&labelColor=0D1117" alt="cipher academy" />
+  </a>
+</div>
 
 <br />
 
@@ -56,19 +71,32 @@ motto:       "Break it. Report it. Fix it."
 
 <div align="center">
 
-**Languages & Tooling**
+**Languages**
 
-<img src="https://skillicons.dev/icons?i=python,bash,js,html,css,linux,kali,git,github,docker,mysql,postman&theme=dark&perline=6" alt="tech stack" />
+<img src="https://skillicons.dev/icons?i=ts,js,python,php,swift,bash,html,css,mysql&theme=dark&perline=9" alt="languages" />
 
-**Security**
+**Frontend**
 
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,threejs,figma&theme=dark&perline=6" alt="frontend" />
+
+**Backend & Data**
+
+<img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,postgres,mongodb,redis,sqlite,prisma,supabase,pytorch&theme=dark&perline=10" alt="backend" />
+
+**Security & Reverse Engineering**
+
+<img src="https://img.shields.io/badge/Frida-3B0B0B?style=for-the-badge&logoColor=white" alt="frida" />
 <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="burp" />
+<img src="https://img.shields.io/badge/mitmproxy-2E7D32?style=for-the-badge&logoColor=white" alt="mitmproxy" />
 <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="wireshark" />
-<img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="metasploit" />
-<img src="https://img.shields.io/badge/Nmap-004E8C?style=for-the-badge&logoColor=white" alt="nmap" />
+<img src="https://img.shields.io/badge/Scapy-0B486B?style=for-the-badge&logoColor=white" alt="scapy" />
 <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="owasp" />
 
-**Platforms**
+**DevOps & Testing**
+
+<img src="https://skillicons.dev/icons?i=docker,githubactions,linux,kali,git,github,vercel,postman,vitest&theme=dark&perline=9" alt="devops" />
+
+**Bug Bounty Platforms**
 
 <img src="https://img.shields.io/badge/HackerOne-494649?style=for-the-badge&logo=hackerone&logoColor=white" alt="hackerone" />
 <img src="https://img.shields.io/badge/Bugcrowd-F26822?style=for-the-badge&logo=bugcrowd&logoColor=white" alt="bugcrowd" />
