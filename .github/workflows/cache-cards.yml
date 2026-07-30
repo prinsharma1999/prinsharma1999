@@ -1,0 +1,61 @@
+name: Cache Stat Cards
+
+# streak-stats.demolab.com takes 15-25s on a cold cache, which is far longer
+# than GitHub's camo image proxy will wait -- so embedding it directly renders
+# as a broken image for most visitors. This job fetches the cards here (where a
+# slow response is fine), commits them, and the README points at the local copy.
+
+on:
+  schedule: # 18:30 UTC, just after the 3D graph + snake jobs
+    - cron: "30 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cache:
+    runs-on: ubuntu-latest
+    name: cache-external-stat-cards
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Fetch stat cards (retry, keep last good copy on failure)
+        env:
+          USER_NAME: ${{ github.repository_owner }}
+        run: |
+          set -u
+          mkdir -p assets
+
+          fetch() {
+            url="$1"; out="$2"
+            for attempt in 1 2 3 4 5; do
+              if curl -fsSL --max-time 90 "$url" -o "$out.tmp" \
+                 && [ -s "$out.tmp" ] && grep -qi '<svg' "$out.tmp"; then
+                mv "$out.tmp" "$out"
+                echo "✓ $out ($(wc -c < "$out") bytes)"
+                return 0
+              fi
+              echo "  retry $attempt/5 for $out"
+              rm -f "$out.tmp"
+              sleep 10
+            done
+            echo "✗ $out failed after 5 attempts - keeping previous copy"
+            return 0
+          }
+
+          fetch "https://streak-stats.demolab.com?user=${USER_NAME}&theme=highcontrast&hide_border=true&background=0D1117&stroke=00FF9C&ring=00FF9C&fire=FF6B00&currStreakLabel=00FF9C&sideLabels=00FF9C&dates=8B949E&sideNums=FFFFFF&currStreakNum=FFFFFF" assets/streak.svg
+          fetch "https://github-readme-activity-graph.vercel.app/graph?username=${USER_NAME}&bg_color=0D1117&color=00FF9C&line=00FF9C&point=FFFFFF&area=true&hide_border=true" assets/activity.svg
+
+          ls -la assets/
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A assets
+          if git commit -m "refresh cached stat cards"; then
+            git push
+          else
+            echo "no changes"
+          fi
